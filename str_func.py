@@ -4,3 +4,9 @@ def capital_letters(word):
     """
     return print(word.upper())
 
+def capital_str(word:str):
+    """
+    делает заглавными первые буквы каждого слова в строке, поступившей на вход функции
+    :return: 
+    """
+    return print(word.title())
